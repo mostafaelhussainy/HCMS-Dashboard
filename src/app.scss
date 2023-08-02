@@ -1,0 +1,85 @@
+@import './assets/scss/helper';
+
+nav#main-nav {
+    background-color: #0e0f38;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    @include flex(space-between, center);
+    .left-wrapper {
+        @include flex(space-between, center, row, 20px);
+
+        #nav-hamurger-menu {
+            width: 18px;
+            height: 16px;
+            min-width: unset;
+            svg {
+                width: 18px;
+                height: 16px;
+                transform: scale(1.5);
+                path {
+                    fill: #FFF !important;
+                }
+            }
+        }
+        a {
+            display: block;
+            width: 34px;
+            height: 34px;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        h1, span {
+            font-weight: 300;
+            color: white;
+        }
+        h1 {
+            font-size: 22px;
+            padding-left: 7px;
+            border-left: 3px solid white;
+            margin-left: 5px;
+            span {
+                font-size: 20px;
+            }
+        }
+    }
+    .right-wrapper {
+        @include flex(space-between, center, row, 20px);
+        #nav-notifications {
+            width: 21px;
+            height: 21px;
+            svg {
+                width: 21px;
+                height: 21px;
+                path {
+                    fill: #FFF !important;
+                }
+            }
+        }
+        
+        figure {
+            width: 30px;
+            height: 30px;
+            display: block;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 1px solid #FFF;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    button, a {
+        cursor: pointer;
+    }
+}
+
+#dashboard-controller {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 4%;
+}
