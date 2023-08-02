@@ -1,0 +1,1 @@
+Components private, public routes are defined in the routes folders. Route restriction based on authentication is handled here.

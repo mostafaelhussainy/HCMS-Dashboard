@@ -1,0 +1,1 @@
+Static assets like images, files, icons and style are placed in the assets directory.

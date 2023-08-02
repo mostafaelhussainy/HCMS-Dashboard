@@ -1,0 +1,1 @@
+Global app setup and configuration used by the entire app are defined in the app folder as shown below, which includes axiosClient, rootReducer, saga, and store.
