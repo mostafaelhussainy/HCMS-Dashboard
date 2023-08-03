@@ -1,6 +1,7 @@
 import Dashboard from "./Dashboard"
 import DashboardDrawer from "./DashboardDrawer"
 import { useState } from 'react';
+import Chart from "./Chart"
 
 function DashboardController() {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -16,6 +17,7 @@ function DashboardController() {
       <Dashboard drawerOpen = {drawerOpen} toggleDrawer = { toggleDrawer } />
       <Dashboard drawerOpen = {drawerOpen} toggleDrawer = { toggleDrawer } />
       <DashboardDrawer drawerOpen = {drawerOpen} toggleDrawer = { toggleDrawer } />
+      <Chart />
     </section>
   )
 }

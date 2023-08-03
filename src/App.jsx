@@ -1,7 +1,7 @@
 import SideMenu from './components/SideMenu'
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import alDar from './assets/aldar.png'
-import profilePic from './assets/profile.png'
+import alDar from './assets/imgs/aldar.png'
+import profilePic from './assets/imgs/profile.png'
 import './app.scss';
 import DashboardController from './components/DashboardControl/DashboardController';
 
